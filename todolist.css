@@ -1,0 +1,113 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+
+}
+body{
+
+    
+    background-image: url(himalya22.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+
+}
+
+.wrapper{
+    margin:120px auto;
+    max-width:400px;
+   width:100%;
+    padding:25px;
+   background-color:rgba(255,255,255,.2);
+   box-shadow:0 5px 15px rgba(0,0,0,.5);
+    
+}
+.wrapper header{
+    font-size:30px;
+    color:rgb(10, 4, 4);
+    font-weight:600px;
+    text-align:center;
+}
+
+.inputflides input{
+    width:270px;
+  height:20px;
+  margin:10px;
+  border-radius:5px;
+  padding:20px;border:2px solid black;
+
+}
+.inputflides button{
+    width:40px;
+   height:40px;
+   border:none;
+   border-radius:3px;
+    background-color:rgba(18, 243, 10, 0.876);
+   color:white;
+   margin:4px;
+   padding:5px;
+   cursor:pointer;
+   opacity:0.6;
+    pointer-events:none;
+
+}
+.inputflides button.active{
+    opacity:1;
+    pointer-events:auto;
+}
+.wrapper.todolist li{
+    max-height:250px;
+    overflow-y:auto;
+}
+.todolist li{
+    list-style:none;
+    position: relative;
+    margin:10px;
+    padding:10px;
+    line-height:35px;
+    background-color:rgba(255,255,255,.2);
+     box-shadow:0 5px 15px rgb(0, 0, 0);
+     font-size:20px;
+    border-radius:3px;
+    overflow:hidden;
+  
+}
+.todolist li span{
+   position:absolute;
+   right:-45px;
+    background:red;
+    color:white;
+    width:40px;
+    height:40px;
+    text-align:center;
+    border-radius:0,3px,3px,0;
+    cursor:pointer;
+    transition:all 0.3s ease;
+}
+.todolist li:hover span{
+      right:0px;
+}
+.wrapper footer span{
+display:flex;
+width:100%;
+margin-top:20px;
+justify-content:space-between;
+align-items:center;
+
+}
+.footer button{
+    border:none;
+    outline:none;
+     background-color:rgb(245, 18, 169);
+    color:white;
+    border-radius:3px;
+    padding:10px;
+    cursor:pointer;
+    opacity:0.6;
+    pointer-events:none;
+
+}
+.footer button.active{
+    opacity:1;
+    pointer-events:auto;
+}
